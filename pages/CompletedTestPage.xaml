@@ -1,0 +1,18 @@
+﻿<Page x:Class="Diplom_V4.pages.CompletedTestPage"
+      xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+      xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+      xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006" 
+      xmlns:d="http://schemas.microsoft.com/expression/blend/2008" 
+      xmlns:local="clr-namespace:Diplom_V4.pages"
+      mc:Ignorable="d" 
+      Title="CompletedTestPage" Loaded="Page_Loaded">
+
+    <Grid>
+        <StackPanel HorizontalAlignment="Center" VerticalAlignment="Center">
+             <Label Content="Спасибо за прохождение теста!"/>
+             <Label x:Name="lbResult" Content="Result"/>
+             <TextBlock Text="Ваш результат был отправлен преподавателю!" TextAlignment="Center" Margin="10" FontSize="28" TextWrapping="Wrap" Style="{StaticResource tb}"/>
+             <Button Content="Завершить"  Width="200" Height="40" Click="Button_Click"/>
+        </StackPanel>
+    </Grid>
+</Page>

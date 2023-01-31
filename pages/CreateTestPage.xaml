@@ -1,0 +1,52 @@
+﻿<Page x:Class="Diplom_V4.CreateTestPage"
+      xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+      xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+      xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006" 
+      xmlns:d="http://schemas.microsoft.com/expression/blend/2008" 
+      xmlns:local="clr-namespace:Diplom_V4"
+      xmlns:viewModel ="clr-namespace:Diplom_V4.src"
+      
+      mc:Ignorable="d" 
+      Title="CreateTestPage">
+
+    <Grid>
+        <Grid.ColumnDefinitions>
+            <ColumnDefinition/>
+            <ColumnDefinition Width="auto"/>
+            <ColumnDefinition/>
+        </Grid.ColumnDefinitions>
+        <Grid.RowDefinitions>
+            <RowDefinition Height="auto"/>
+            <RowDefinition Height="auto"/>
+            <RowDefinition Height="auto"/>
+        </Grid.RowDefinitions>
+
+        <StackPanel Grid.Row="0" Grid.Column="1">
+            <Label  Content="Введите название теста" Margin="0,10,0,0"/>
+            <TextBox x:Name="testName" Width="380" Height="40" TextChanged="testName_TextChanged" TextWrapping="Wrap"/>
+        </StackPanel>
+        <StackPanel Grid.Row="1" Grid.Column="1">
+            <Label  Content="Вопросы в тесте" Margin="0"/>
+            <ListView x:Name="tasksTest" Height="450" Width="500" FontSize="14" ItemsSource="{ Binding Path=Tasks}">
+                <ListView.View>
+                    <GridView>
+                        <GridViewColumn Header="Вопрос" Width="auto" DisplayMemberBinding="{ Binding Path = Name }"/>
+                        <GridViewColumn Width="auto" Header="Ответы" DisplayMemberBinding="{ Binding Path = AnswersSrt }"/>
+                        <GridViewColumn Width="auto" Header="Номер правильного ответа" DisplayMemberBinding="{ Binding Path = NumTrueAns }"/>
+                    </GridView>
+                </ListView.View>
+            </ListView>
+        </StackPanel>
+        <StackPanel Grid.Row="2" Grid.Column="1">
+            <StackPanel Orientation="Horizontal">
+                <Button Content="Удалить вопрос" Height="40" Width="160" Margin="7,23,7,0" Click="Button_Click_1"/>
+                <Button Content="Добавить вопросы" Height="40" Width="190" Click="Button_Click" Margin="7,23,7,0"/>
+                <Button Content="Сохранить тест" Height="40" Width="160" Margin="7,23,7,0" Click="Button_Click_2"/>
+            </StackPanel>
+            <StackPanel Orientation="Horizontal" HorizontalAlignment="Center" VerticalAlignment="Center">
+                <Button Content="Посмотреть все тесты" Height="40" Width="230" Margin="7,23,7,0" Click="Button_Click_3"/>
+                <Button Content="Вернуться" Height="40" Width="150" Click="Button_Click_4" Margin="7,23,7,0"/>
+            </StackPanel>
+        </StackPanel>
+    </Grid>
+</Page>

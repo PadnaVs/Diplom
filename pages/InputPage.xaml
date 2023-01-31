@@ -1,0 +1,33 @@
+﻿<Page x:Class="Diplom_V4.InputPage"
+      xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+      xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+      xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006" 
+      xmlns:d="http://schemas.microsoft.com/expression/blend/2008" 
+      xmlns:local="clr-namespace:Diplom_V4"
+      mc:Ignorable="d" 
+      d:DesignHeight="450" d:DesignWidth="800"
+      Title="InputPage" Loaded="Page_Loaded">
+
+    <Grid>
+        <Grid.RowDefinitions>
+            <RowDefinition />
+            <RowDefinition Height="auto"/>
+            <RowDefinition/>
+        </Grid.RowDefinitions>
+        <Grid.ColumnDefinitions>
+            <ColumnDefinition/>
+            <ColumnDefinition Width="auto"/>
+            <ColumnDefinition/>
+        </Grid.ColumnDefinitions>
+
+        <StackPanel Grid.Row="1" Grid.Column="1">
+            <Label x:Name="lbFU" Content="for user" Margin="0"/>
+            <Label Content="Введите email" Margin="0"/>
+            <TextBox x:Name="inputEmail" Width="200"/>
+            <Label Content="Введите пароль" Margin="0"/>
+            <PasswordBox x:Name="pbInput" Width="200"/>
+            <Button x:Name="btInput" Content="Вход" Width="200" Height="40" Click="btInput_Click" Margin="0,20,0,10"/>
+            <Button Content="Вернуться" Width="200" Height="40" Click="Button_Click" Margin="0,10,0,0"/>
+        </StackPanel>
+    </Grid>
+</Page>

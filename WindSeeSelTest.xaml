@@ -1,0 +1,54 @@
+﻿<Window x:Class="Diplom_V4.WindSeeSelTest"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+        xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+        xmlns:local="clr-namespace:Diplom_V4"
+        mc:Ignorable="d"
+        Title="Редактирование выбранного теста" Height="800" Width="650" Background="#5D016D" Loaded="Window_Loaded" Closing="Window_Closing" Closed="Window_Closed">
+    <Grid>
+        <Grid.ColumnDefinitions>
+            <ColumnDefinition/>
+            <ColumnDefinition Width="Auto"/>
+            <ColumnDefinition/>
+        </Grid.ColumnDefinitions>
+
+        <Grid.RowDefinitions>
+            <RowDefinition Height="auto"/>
+            <RowDefinition/>
+        </Grid.RowDefinitions>
+
+        <StackPanel Grid.Row="0" Grid.Column="1">
+            <TextBlock Margin="10" x:Name="lbTestName" Text="Test Name" FontSize="29" Width="500" TextWrapping="Wrap" TextAlignment="Center" Style="{StaticResource tb}"/>
+            <ListView x:Name="testTab" Height="490" Width="500" FontSize="14" ItemsSource="{ Binding Path = Tasks}" SelectionChanged="testTab_SelectionChanged">
+                <ListView.View>
+                    <GridView>
+                        <GridViewColumn Header="Название вопроса" Width="auto" DisplayMemberBinding="{ Binding Path = Name }"/>
+                        <GridViewColumn Header="Ответы"           Width="auto" DisplayMemberBinding="{ Binding Path =  AnswersSrt }"/>
+                        <GridViewColumn Header="Правильный ответ" Width="auto" DisplayMemberBinding="{ Binding Path =  NumTrueAns }"/>
+                    </GridView>
+                </ListView.View>
+            </ListView>
+        </StackPanel>
+
+        <Grid Grid.Row="1" Grid.Column="1">
+            <Grid.RowDefinitions>
+                <RowDefinition/>
+                <RowDefinition/>
+                <RowDefinition/>
+            </Grid.RowDefinitions>
+
+            <Grid.ColumnDefinitions>
+                <ColumnDefinition/>
+                <ColumnDefinition/>
+            </Grid.ColumnDefinitions>
+            <Button Grid.Column="0" Grid.Row="0" HorizontalAlignment="Center" VerticalAlignment="Center" Content="Изменить название теста" Width="250" Height="40" Margin="0,10,10,0" Click="Button_Click_3"/>
+            <Button Grid.Column="1" Grid.Row="0" HorizontalAlignment="Center" VerticalAlignment="Center" Content="Изменить вопрос" Width="200" Height="40" Margin="10,10,0,0" Click="Button_Click_2"/>
+            <Button Grid.Column="0" Grid.Row="1" HorizontalAlignment="Center" VerticalAlignment="Center" Content="Добавить вопрос" Width="200" Height="40" Margin="0,10,10,0" Click="Button_Click_4"/>
+            <Button Grid.Column="1" Grid.Row="1" HorizontalAlignment="Center" VerticalAlignment="Center" Content="Удалить вопрос" Width="200" Height="40" Margin="10,10,0,0" Click="Button_Click_5"/>
+            <Button Grid.Column="0" Grid.Row="2" HorizontalAlignment="Center" VerticalAlignment="Center" Content="Сохранить" Width="200" Height="40" Click="Button_Click" Margin="0,0,10,0"/>
+            <Button Grid.Column="1" Grid.Row="2" HorizontalAlignment="Center" VerticalAlignment="Center" Content="Отмена" Width="150" Height="40" Click="Button_Click_1" Margin="10,0,0,0"/>
+        </Grid>
+
+    </Grid>
+</Window>

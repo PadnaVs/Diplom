@@ -1,0 +1,48 @@
+D:\data\repos\Diplom_V4\obj\Debug\Diplom_V4.csprojAssemblyReference.cache
+D:\data\repos\Diplom_V4\obj\Debug\pages\InputPage.g.cs
+D:\data\repos\Diplom_V4\obj\Debug\pages\MainPage.g.cs
+D:\data\repos\Diplom_V4\obj\Debug\MainWindow.g.cs
+D:\data\repos\Diplom_V4\obj\Debug\pages\RegisterPage.g.cs
+D:\data\repos\Diplom_V4\obj\Debug\App.g.cs
+D:\data\repos\Diplom_V4\obj\Debug\pages\InputPage.baml
+D:\data\repos\Diplom_V4\obj\Debug\pages\MainPage.baml
+D:\data\repos\Diplom_V4\obj\Debug\MainWindow.baml
+D:\data\repos\Diplom_V4\obj\Debug\pages\RegisterPage.baml
+D:\data\repos\Diplom_V4\obj\Debug\style\StyleBut.baml
+D:\data\repos\Diplom_V4\obj\Debug\style\StyleInput.baml
+D:\data\repos\Diplom_V4\obj\Debug\style\StyleLable.baml
+D:\data\repos\Diplom_V4\obj\Debug\Diplom_V4.Properties.Resources.resources
+D:\data\repos\Diplom_V4\obj\Debug\Diplom_V4.csproj.GenerateResource.cache
+D:\data\repos\Diplom_V4\obj\Debug\App.baml
+D:\data\repos\Diplom_V4\obj\Debug\pages\StartPageTeacher.g.cs
+D:\data\repos\Diplom_V4\obj\Debug\pages\StartPageTeacher.baml
+D:\data\repos\Diplom_V4\obj\Debug\WindCreateQuestion.g.cs
+D:\data\repos\Diplom_V4\obj\Debug\WindCreateQuestion.baml
+D:\data\repos\Diplom_V4\obj\Debug\pages\CreateTestPage.g.cs
+D:\data\repos\Diplom_V4\obj\Debug\pages\CreateTestPage.baml
+D:\data\repos\Diplom_V4\bin\Debug\Newtonsoft.Json.dll
+D:\data\repos\Diplom_V4\bin\Debug\Newtonsoft.Json.xml
+D:\data\repos\Diplom_V4\obj\Debug\Diplom_V4.csproj.CopyComplete
+D:\data\repos\Diplom_V4\obj\Debug\WindSeeTests.g.cs
+D:\data\repos\Diplom_V4\obj\Debug\WindSeeTests.baml
+D:\data\repos\Diplom_V4\obj\Debug\pages\StartPageStudent.g.cs
+D:\data\repos\Diplom_V4\obj\Debug\pages\StartPageStudent.baml
+D:\data\repos\Diplom_V4\obj\Debug\pages\PassingTestPage.g.cs
+D:\data\repos\Diplom_V4\obj\Debug\pages\PassingTestPage.baml
+D:\data\repos\Diplom_V4\obj\Debug\style\StyleTextBlock.baml
+D:\data\repos\Diplom_V4\obj\Debug\pages\CompletedTestPage.g.cs
+D:\data\repos\Diplom_V4\obj\Debug\pages\CompletedTestPage.baml
+D:\data\repos\Diplom_V4\obj\Debug\WindSeeSelTest.g.cs
+D:\data\repos\Diplom_V4\obj\Debug\WindSeeSelTest.baml
+D:\data\repos\Diplom_V4\obj\Debug\WindChangeSelTest.g.cs
+D:\data\repos\Diplom_V4\obj\Debug\WindChangeSelTest.baml
+D:\data\repos\Diplom_V4\obj\Debug\WindChangeNameSelTest.g.cs
+D:\data\repos\Diplom_V4\obj\Debug\WindChangeNameSelTest.baml
+D:\data\repos\Diplom_V4\bin\Debug\Система тестирования студентов.exe.config
+D:\data\repos\Diplom_V4\bin\Debug\Система тестирования студентов.exe
+D:\data\repos\Diplom_V4\bin\Debug\Система тестирования студентов.pdb
+D:\data\repos\Diplom_V4\obj\Debug\Система тестирования студентов_MarkupCompile.cache
+D:\data\repos\Diplom_V4\obj\Debug\Система тестирования студентов_MarkupCompile.lref
+D:\data\repos\Diplom_V4\obj\Debug\Система тестирования студентов.g.resources
+D:\data\repos\Diplom_V4\obj\Debug\Система тестирования студентов.exe
+D:\data\repos\Diplom_V4\obj\Debug\Система тестирования студентов.pdb

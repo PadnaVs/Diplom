@@ -1,0 +1,48 @@
+D:\data\repos\Diplom_V4\bin\Release\Newtonsoft.Json.dll
+D:\data\repos\Diplom_V4\bin\Release\Newtonsoft.Json.xml
+D:\data\repos\Diplom_V4\obj\Release\pages\CompletedTestPage.g.cs
+D:\data\repos\Diplom_V4\obj\Release\pages\CreateTestPage.g.cs
+D:\data\repos\Diplom_V4\obj\Release\pages\InputPage.g.cs
+D:\data\repos\Diplom_V4\obj\Release\pages\MainPage.g.cs
+D:\data\repos\Diplom_V4\obj\Release\MainWindow.g.cs
+D:\data\repos\Diplom_V4\obj\Release\pages\PassingTestPage.g.cs
+D:\data\repos\Diplom_V4\obj\Release\pages\RegisterPage.g.cs
+D:\data\repos\Diplom_V4\obj\Release\pages\StartPageStudent.g.cs
+D:\data\repos\Diplom_V4\obj\Release\pages\StartPageTeacher.g.cs
+D:\data\repos\Diplom_V4\obj\Release\WindChangeNameSelTest.g.cs
+D:\data\repos\Diplom_V4\obj\Release\WindChangeSelTest.g.cs
+D:\data\repos\Diplom_V4\obj\Release\WindSeeSelTest.g.cs
+D:\data\repos\Diplom_V4\obj\Release\WindSeeTests.g.cs
+D:\data\repos\Diplom_V4\obj\Release\WindCreateQuestion.g.cs
+D:\data\repos\Diplom_V4\obj\Release\App.g.cs
+D:\data\repos\Diplom_V4\obj\Release\App.baml
+D:\data\repos\Diplom_V4\obj\Release\pages\CompletedTestPage.baml
+D:\data\repos\Diplom_V4\obj\Release\pages\CreateTestPage.baml
+D:\data\repos\Diplom_V4\obj\Release\pages\InputPage.baml
+D:\data\repos\Diplom_V4\obj\Release\pages\MainPage.baml
+D:\data\repos\Diplom_V4\obj\Release\MainWindow.baml
+D:\data\repos\Diplom_V4\obj\Release\pages\PassingTestPage.baml
+D:\data\repos\Diplom_V4\obj\Release\pages\RegisterPage.baml
+D:\data\repos\Diplom_V4\obj\Release\pages\StartPageStudent.baml
+D:\data\repos\Diplom_V4\obj\Release\pages\StartPageTeacher.baml
+D:\data\repos\Diplom_V4\obj\Release\style\StyleTextBlock.baml
+D:\data\repos\Diplom_V4\obj\Release\WindChangeNameSelTest.baml
+D:\data\repos\Diplom_V4\obj\Release\WindChangeSelTest.baml
+D:\data\repos\Diplom_V4\obj\Release\WindSeeSelTest.baml
+D:\data\repos\Diplom_V4\obj\Release\WindSeeTests.baml
+D:\data\repos\Diplom_V4\obj\Release\style\StyleBut.baml
+D:\data\repos\Diplom_V4\obj\Release\style\StyleInput.baml
+D:\data\repos\Diplom_V4\obj\Release\style\StyleLable.baml
+D:\data\repos\Diplom_V4\obj\Release\WindCreateQuestion.baml
+D:\data\repos\Diplom_V4\obj\Release\Diplom_V4.Properties.Resources.resources
+D:\data\repos\Diplom_V4\obj\Release\Diplom_V4.csproj.GenerateResource.cache
+D:\data\repos\Diplom_V4\obj\Release\Diplom_V4.csproj.CopyComplete
+D:\data\repos\Diplom_V4\bin\Release\Система тестирования студентов.exe.config
+D:\data\repos\Diplom_V4\bin\Release\Система тестирования студентов.exe
+D:\data\repos\Diplom_V4\bin\Release\Система тестирования студентов.pdb
+D:\data\repos\Diplom_V4\obj\Release\Diplom_V4.csprojAssemblyReference.cache
+D:\data\repos\Diplom_V4\obj\Release\Система тестирования студентов_MarkupCompile.cache
+D:\data\repos\Diplom_V4\obj\Release\Система тестирования студентов_MarkupCompile.lref
+D:\data\repos\Diplom_V4\obj\Release\Система тестирования студентов.g.resources
+D:\data\repos\Diplom_V4\obj\Release\Система тестирования студентов.exe
+D:\data\repos\Diplom_V4\obj\Release\Система тестирования студентов.pdb

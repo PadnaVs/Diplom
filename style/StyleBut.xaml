@@ -1,0 +1,55 @@
+﻿<ResourceDictionary xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+                    xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+                    xmlns:local="clr-namespace:Diplom_V4">
+    <ControlTemplate TargetType="Button" x:Key="btTemplate">
+        <Border Background="#FF9200" CornerRadius="15" BorderThickness="3" BorderBrush="#BF8230">
+            <Border.Effect>
+                <DropShadowEffect Color="Black" BlurRadius="10" Opacity="1"></DropShadowEffect>
+            </Border.Effect>
+            <ContentPresenter HorizontalAlignment="Center" VerticalAlignment="Center"/>
+        </Border>
+    </ControlTemplate>
+
+    <Style TargetType="Button">
+        <Setter Property="Margin" Value="20"/>
+
+        <Setter Property="FontSize" Value="18"/>
+
+        <Setter Property="FontWeight" Value="Bold"/>
+
+        <Setter Property="Foreground" Value="#614117"/>
+
+        <Setter Property="Template" Value="{StaticResource btTemplate}"/>
+
+        <Style.Triggers>
+            <Trigger Property="IsMouseOver" Value="True">
+                <Setter Property="Template">
+                    <Setter.Value>
+                        <ControlTemplate TargetType="Button">
+                            <Border Background="#FF9200" CornerRadius="15" BorderThickness="3" BorderBrush="#664F30">
+                                <Border.Effect>
+                                    <DropShadowEffect Color="#FF00FA" BlurRadius="15" Opacity="1" ShadowDepth="0" ></DropShadowEffect>
+                                </Border.Effect>
+                                <ContentPresenter HorizontalAlignment="Center" VerticalAlignment="Center"/>
+                            </Border>
+                        </ControlTemplate>
+                    </Setter.Value>
+                </Setter>
+            </Trigger>
+            <Trigger Property="IsPressed" Value="True">
+                <Setter Property="Template">
+                    <Setter.Value>
+                        <ControlTemplate TargetType="Button">
+                            <Border Background="#CA7502" CornerRadius="15" BorderThickness="3" BorderBrush="#664F30">
+                                <Border.Effect>
+                                    <DropShadowEffect Color="#FF00FA" BlurRadius="15" Opacity="1" ShadowDepth="0"></DropShadowEffect>
+                                </Border.Effect>
+                                <ContentPresenter HorizontalAlignment="Center" VerticalAlignment="Center"/>
+                            </Border>
+                        </ControlTemplate>
+                    </Setter.Value>
+                </Setter>
+            </Trigger>
+        </Style.Triggers>
+    </Style>
+</ResourceDictionary>

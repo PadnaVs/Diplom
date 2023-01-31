@@ -1,0 +1,46 @@
+﻿<Window x:Class="Diplom_V4.src.WindSeeTests"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+        xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+        xmlns:local="clr-namespace:Diplom_V4.src"
+        mc:Ignorable="d"
+        Background="#5D016D"
+        Width ="650"
+        Height="700"
+        Title="Просмотр тестов" Loaded="Window_Loaded">
+    <Grid>
+        <Grid.ColumnDefinitions>
+            <ColumnDefinition/>
+            <ColumnDefinition Width="auto"/>
+            <ColumnDefinition/>
+        </Grid.ColumnDefinitions>
+
+        <Grid.RowDefinitions>
+            <RowDefinition Height="auto"/>
+            <RowDefinition/>
+        </Grid.RowDefinitions>
+        
+        <StackPanel Grid.Row="0" Grid.Column="1">
+            <Label Content="Всё созданные тесты" Margin="0,10,0,0"/>
+            <ListView x:Name="testTab" Height="480" Width="500" FontSize="14" ItemsSource="{ Binding Path=TestsLoaded}">
+                <ListView.View>
+                    <GridView>
+                        <GridViewColumn Header="Название теста" Width="auto" DisplayMemberBinding="{ Binding Path = Name }"/>
+                        <GridViewColumn Width="auto" Header="Преподаватель" DisplayMemberBinding="{ Binding Path = Creater.fn }"/>
+                    </GridView>
+                </ListView.View>
+            </ListView>
+        </StackPanel>
+
+        <StackPanel  Grid.Row="1" Grid.Column="1">
+            <StackPanel Orientation="Horizontal" HorizontalAlignment="Center">
+                <Button Content="Обновить таблицу" Height="40" Width="200" Click="Button_Click_2" Margin="0,10,0,10"/>
+            </StackPanel>
+            <StackPanel Orientation="Horizontal" HorizontalAlignment="Center">
+                <Button Content="Редактирование теста" Height="40" Width="220" Click="Button_Click_1" Margin="0,0,10,0"/>
+                <Button Content="Удаление теста" Height="40" Width="200" Click="Button_Click" Margin="10,0,0,0"/>
+            </StackPanel>
+        </StackPanel>
+    </Grid>
+</Window>
